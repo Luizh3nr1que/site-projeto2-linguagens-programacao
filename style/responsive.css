@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width:1077px) {
+    .primeira {
+        width: 750px;
+    }
+
+    .primeira2 {
+        width: 750px;
+    }
+
+
+}
+
+@media screen and (max-width:931px) {
+    .primeira {
+        width: 630px;
+    }
+
+    .primeira2 {
+        width: 550px;
+    }
+
+
+}
+
+@media screen and (max-width:770px) {
+    .primeira {
+        width: 530px;
+    }
+
+    .primeira2 {
+        width: 550px;
+        margin-left: 5%;
+    }
+
+
+}
+
+@media screen and (max-width:628px) {
+    .primeira {
+        width: 430px;
+    }
+
+    .primeira2 {
+        width: 350px;
+    }
+
+    .imagem p {
+        font-size: 17px;
+
+    }
+
+    .imagem2 p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .img2 {
+        background-position: bottom
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .primeira {
+        width: 330px;
+    }
+
+    .primeira2 {
+        width: 310px;
+
+    }
+
+    .imagem p {
+        font-size: 20px;
+        text-align: inherit;
+        color: white;
+        font-weight: normal;
+        background-color: rgba(0, 0, 0, 0.595);
+    }
+
+    .texto h2 {
+        font-size: 20px;
+    }
+
+    .imagem2 p {
+        font-weight: normal;
+        font-size: 18px;
+        text-align: right;
+    }
+
+    .texto p {
+        line-height: 1.7;
+    }
+
+
+
+}
+
+@media screen and (max-width:320px) {
+    .primeira {
+        width: 220px;
+    }
+
+    header {
+        font-size: 13px;
+    }
+
+    .primeira2 {
+        display: none;
+
+    }
+
+    .imagem p {
+        font-size: 15px;
+        color: white;
+        font-weight: normal;
+        background-color: rgba(0, 0, 0, 0.595);
+        margin: auto;
+    }
+
+    .texto h2 {
+        font-size: 15px;
+    }
+
+    .texto p {
+        font-size: 12px;
+    }
+
+    .imagem2 p {
+        font-weight: normal;
+        font-size: 15px;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 6px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:375px) {
+    .primeira {
+        width: 250px;
+    }
+
+    header {
+        font-size: 13px;
+    }
+
+    .primeira2 {
+        display: none;
+
+    }
+
+    .imagem p {
+        font-size: 15px;
+        color: white;
+        font-weight: normal;
+        background-color: rgba(0, 0, 0, 0.595);
+        margin: auto;
+    }
+
+    .texto h2 {
+        font-size: 17px;
+    }
+
+    .texto p {
+        font-size: 14px;
+    }
+
+    .imagem2 p {
+        font-weight: normal;
+        font-size: 15px;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 6px;
+    }
+}
